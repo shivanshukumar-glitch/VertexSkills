@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrainEffective Football</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background-color: #0f172a; color: #e5e7eb; }
+    header { background: linear-gradient(135deg, #16a34a, #22c55e); padding: 40px 20px; text-align: center; color: #022c22; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin-top: 10px; font-size: 1.1rem; }
+    nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; background-color: #020617; padding: 15px; }
+    nav a { color: #e5e7eb; text-decoration: none; font-weight: bold; padding: 8px 15px; border-radius: 6px; background-color: #111827; transition: background 0.3s; }
+    nav a:hover { color: #22c55e; background-color: #111f3b; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #22c55e; margin-bottom: 15px; }
+    .card { background-color: #020617; border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.4); }
+    ul { padding-left: 20px; }
+    .video-card { display: block; text-decoration: none; color: inherit; margin-top: 10px; }
+    .video-card img { width: 100%; border-radius: 12px; }
+    .video-card button { width: 100%; margin-top: 5px; background-color: #22c55e; color: #0f172a; border: none; padding: 10px; border-radius: 8px; font-weight: bold; cursor: pointer; }
+    .video-card button:hover { background-color: #16a34a; }
+    footer { text-align: center; padding: 20px; background-color: #020617; color: #94a3b8; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TrainEffective Football</h1>
+    <p>Free football training for everyone. Train smarter. Play better.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home Training</a>
+    <a href="#ground">Ground Training</a>
+    <a href="#positions">Position Training</a>
+    <a href="#mistakes">Common Mistakes</a>
+    <a href="#daily">Train Today</a>
+    <a href="#creator">Creator Story</a>
+  </nav>
+
+  <section id="home">
+    <h2>🏡 Home Training</h2>
+    <div class="card">
+      <h3>Ball Control (20 minutes)</h3>
+      <ul>
+        <li>Toe taps – 2 min</li>
+        <li>Inside–outside touches – 5 min</li>
+        <li>Sole rolls – 5 min</li>
+        <li>Wall passes – 5 min</li>
+      </ul>
+      <a class="video-card" href="https://www.youtube.com/watch?v=Fj3Jsn0Pa7c" target="_blank">
+        <img src="https://img.youtube.com/vi/Fj3Jsn0Pa7c/0.jpg" alt="Ball Control" />
+        <button>Watch Ball Control Video</button>
+      </a>
+      <button onclick="window.location.href='#ground'">Next: Ground Training</button>
+    </div>
+  </section>
+
+  <section id="ground">
+    <h2>🏟️ Ground Training</h2>
+    <div class="card">
+      <h3>Dribbling Session</h3>
+      <ul>
+        <li>Zig-zag cone dribble</li>
+        <li>Speed dribble (20–30 meters)</li>
+        <li>1v1 practice</li>
+      </ul>
+      <a class="video-card" href="https://www.youtube.com/watch?v=eOJsyoR1o_E" target="_blank">
+        <img src="https://img.youtube.com/vi/eOJsyoR1o_E/0.jpg" alt="Dribbling" />
+        <button>Watch Dribbling Video</button>
+      </a>
+      <button onclick="window.location.href='#positions'">Next: Position Training</button>
+    </div>
+  </section>
+
+  <section id="positions">
+    <h2>🎯 Position Training</h2>
+    <div class="card">
+      <h3>Striker</h3>
+      <ul>
+        <li>Finishing practice</li>
+        <li>Movement inside the box</li>
+        <li>First touch shooting</li>
+      </ul>
+      <a class="video-card" href="https://www.youtube.com/watch?v=ud84rp3Vphs" target="_blank">
+        <img src="https://img.youtube.com/vi/ud84rp3Vphs/0.jpg" alt="Striker" />
+        <button>Watch Striker Video</button>
+      </a>
+      <button onclick="window.location.href='#daily'">Next: Train Today</button>
+    </div>
+    <div class="card">
+      <h3>Midfielder</h3>
+      <ul>
+        <li>Passing accuracy</li>
+        <li>Vision & scanning</li>
+        <li>Ball control under pressure</li>
+      </ul>
+      <a class="video-card" href="https://www.youtube.com/watch?v=_uuqsGCiM9I" target="_blank">
+        <img src="https://img.youtube.com/vi/_uuqsGCiM9I/0.jpg" alt="Midfielder" />
+        <button>Watch Midfielder Video</button>
+      </a>
+    </div>
+    <div class="card">
+      <h3>Defender</h3>
+      <ul>
+        <li>Positioning</li>
+        <li>Tackling timing</li>
+        <li>Clearances</li>
+      </ul>
+      <a class="video-card" href="https://www.youtube.com/watch?v=WJ-yiVgajJU" target="_blank">
+        <img src="https://img.youtube.com/vi/WJ-yiVgajJU/0.jpg" alt="Defender" />
+        <button>Watch Defender Video</button>
+      </a>
+    </div>
+    <div class="card">
+      <h3>Goalkeeper</h3>
+      <ul>
+        <li>Basic handling</li>
+        <li>Footwork</li>
+        <li>Low diving technique</li>
+      </ul>
+      <a class="video-card" href="https://www.youtube.com/watch?v=1tGm8q5Pa7c" target="_blank">
+        <img src="https://img.youtube.com/vi/1tGm8q5Pa7c/0.jpg" alt="Goalkeeper" />
+        <button>Watch Goalkeeper Video</button>
+      </a>
+    </div>
+  </section>
+
+  <section id="mistakes">
+    <h2>❌ Common Mistakes</h2>
+    <div class="card">
+      <ul>
+        <li>Looking only at the ball while dribbling</li>
+        <li>Shooting without balance</li>
+        <li>Panicking under pressure</li>
+        <li>Skipping warm-up</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="daily">
+    <h2>📅 Train Today - Daily Plan</h2>
+    <div class="card">
+      <h3>Sample 30-Minute Daily Routine</h3>
+      <ul>
+        <li>5 min warm-up jog</li>
+        <li>10 min ball control drills</li>
+        <li>10 min passing & shooting</li>
+        <li>5 min cooldown stretches</li>
+      </ul>
+      <a class="video-card" href="https://www.youtube.com/watch?v=Fj3Jsn0Pa7c" target="_blank">
+        <img src="https://img.youtube.com/vi/Fj3Jsn0Pa7c/0.jpg" alt="Daily Plan" />
+        <button>Watch Daily Plan Video</button>
+      </a>
+      <button onclick="window.location.href='#creator'">Next: Creator Story</button>
+    </div>
+  </section>
+
+  <section id="creator">
+    <h2>👑 Creator–Founder Story</h2>
+    <div class="card">
+      <p>Hello! I’m the founder of TrainEffective Football. I created this site to help anyone, anywhere, improve their football skills for free. My goal is simple: train smarter, play better, and make football accessible to all.</p>
+      <button onclick="window.location.href='#home'">Back to Home</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 TrainEffective Football | Free training for everyone</p>
+  </footer>
+
+</body>
+</html>
